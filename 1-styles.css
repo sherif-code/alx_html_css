@@ -1,12 +1,157 @@
-
-
 /*
 .holberton_school-icon-ic_sound:before {
 	content: "\e90e";
 	font-size: 100px;
 }*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
-.holberton_school-icon-ic_cart:before {
-	content: "\e907";
-	font-size: 300px;
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #f0f0f0;
+	color: #333;
+}
+
+.logo img {
+	font-size: 15px;
+	width: 60%;
+	font-weight: bold;
+	color: #FF6565;
+	text-decoration: none;
+}
+
+.hero-section {
+	background-image: url(assets/images/headphones_hero_1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.navbar {
+	color: #fff;
+	padding: 10px 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav-links a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 15px;
+	transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+	color: #FF6565;
+	opacity: 0.9;
+}
+
+.hero-content {
+	text-align: center;
+	color: #fff;
+	margin-top: 20%;
+	padding: 0px 400px;
+}
+
+.hero-content h1 {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.hero-content h2 {
+	font-size: 20px;
+	font-weight: 40;
+	margin-bottom: 100px;
+}
+
+.hero-content p {
+	font-size: 17px;
+	font-weight: 20;
+	margin-top: 70px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.hero-content a {
+	background-color: #FF6565;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	margin-top: 30px;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 18px;
+	text-decoration: none;
+	margin-bottom: 20px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.377)
+}
+
+.hero-content a:hover {
+	background-color: #e55a5a;
+	transition: background-color 0.3s ease;
+}
+
+
+.what-we-do {
+	background-color: white;
+	align-items: center;
+	justify-content: center;
+	padding: 100px 140px;
+	text-overflow: hidden;
+}
+
+.what-we-do-content h2 {
+	text-align: center;
+	font-size: 70px;
+	margin-bottom: 20px;
+
+	text-align: center;
+}
+
+.what-we-do-content p {
+	text-align: center;
+	font-size: 17px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: 40;
+}
+
+/*ico styling*/
+.icon-container {
+	text-overflow: hidden;
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	margin-top: 50px;
+}
+
+.icon-container .icons {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.icon-container .icons span {
+	font-size: 85px;
+	color: #FF6565;
+
+	margin-bottom: 20px;
+}
+
+.icons h2 {
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.icons p {
+	font-size: 14px;
+	margin-bottom: 20px;
+	font-weight: 40;
+	margin-top: 20px;
 }
