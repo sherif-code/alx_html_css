@@ -74,24 +74,31 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 480px) {
-	.navbar {
+.hamburger {
+	display: none;
+	font-size: 28px;
+	cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+	.nav-links {
+		display: none;
 		flex-direction: column;
-		gap: 10px;
+		background-color: #fff;
+		position: absolute;
+		top: 70px;
+		right: 20px;
+		padding: 20px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	}
 
-	.hero h1 {
-		font-size: 2rem;
-	}
-
-	.hero p {
-		font-size: 1rem;
-	}
-
-	.services {
-		grid-template-columns: 1fr;
+	.nav-links.active {
+		display: flex;
 	}
 }
+
+
 
 .hero-content {
 	text-align: center;
